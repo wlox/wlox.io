@@ -1,0 +1,27 @@
+#logo, #skill .bar, .no-touch .hi-icon-effect-1a .hi-icon:hover, .no-touch .hi-icon-effect-1b .hi-icon:hover, #filters li.active, .menu_trigger, .mobileAreaMenu li, 
+#response .submit_buttom, .read_more_small:hover, .pricing_footer:hover, .pricing-table.color .pricing_sub_header, .pricing-table.color .pricing_footer, .social_links_footer li:hover {
+
+}
+
+::selection {background-color: #02db6d; color: white;}
+a:hover, .welcome_msg, .col_wrapper.active a, .the-title h1 a:hover, span.color {
+	color:#02db6d;
+}
+
+.hi-icon-effect-1 .hi-icon:after{
+	box-shadow: 0 0 0 4px #02db6d;
+}
+.pricing-table.color .pricing_header {background-color: #0ec858; }
+
+.custom_button a:hover {
+	border: 2px solid #02db6d;
+}
+
+
+
+.carousel-next, .carousel-prev {	
+	background-color: #02db6d;
+}
+.over_about {background-color: rgba(2, 219, 109, 0.9);}
+
+.ie8 .over_about {background-color: #02db6d;}

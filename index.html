@@ -1,303 +1,400 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
 <html lang="en">
-<!--<![endif]-->
 <head>
-<title>WLOX - Open Source Cryptocurrency Exchange</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WLOX</title>
+<meta name="description" content="">
 
-<link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+<!-- core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
 
-<link href="css/reset.css" rel="stylesheet" type="text/css" />
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-<link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
-<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
-<link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
-<link href="style.css" rel="stylesheet" type="text/css" />
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href="css/prettyPhoto.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
 </head>
+<!--/head-->
 
-<body id="home">
+<body class="homepage">
+<header id="header">
+  <nav class="navbar navbar-inverse" role="banner">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="index.html"><img src="http://wlox.io/images/logo1.png" style="width:175px;height:70px; margin-top: -5px;"></a></a> </div>
+      <div class="collapse navbar-collapse navbar-right">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <!--/<li><a href="about-us.html">About</a></li>-->
+          <li><a href="services.html">Services</a></li>
+          <!--/<li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="pricing.html">Pricing</a></li>-->
+          <li><a href="contact-us.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!--/.container--> 
+  </nav>
+  <!--/nav--> 
+   <div class="color-border"> </div>
+</header>
+<!--/header-->
 
-<div id="top"></div>
-
-<div id="header">
-<div class="responsive_nav white_lines">
-	<div class="container">
-		<div class="row">
-			<div class="span12">
-				<div class="mobileAreaMenu">
-					<ul>
-						<li><a href="#top">Home</a></li>
-						<li><a href="#features">Features</a></li>
-						<li><a href="#screenshots">Screenshots</a></li>
-						<li><a href="#footer">Contact US</a></li>
-						<li><a class="external" href="index.es.html">Español</a>
-					</ul>
-			</div><!--mobileAreaMenu-->
-			</div><!--span12-->
-		</div><!--row-->
-	</div>			
-</div><!--responsive_nav-->
-
-
-	<div class="row-fluid">
-		<div class="logo_container">
-			<a href="#top"><div id="logo"><img src="images/logo1.png" alt=""></div></a>
-		</div>
-		<a href="#responsive_nav" class="menu_trigger"><i class="fa_icon icon-reorder icon-2x"></i></a>
-
-		<div class="main_nav">
-			<ul>
-				<li><a class="active" href="#top">Home</a></li>
-				<li><a href="#features">Features</a></li>
-				<li><a href="#screenshots">Screenshots</a></li>
-				<li><a class="external" href="index.es.html">Español</a>
-			</ul>
-		</div>
-		<div class="clear"></div>
-	</div><!--row-fluid-->
-</div><!--header-->
-<div class="fullwidthbanner-container home" id="top">
-	<img class="logo" src="images/logo2.png" alt="WLOX - Open Source Cryptocurrency Exchange" />
-	<div class="statement">
-		<h1>White Label Open Source Cryptocurrency Exchange</h1>
-		<p>WLOX is a white label, open source cryptocurrency exchange platform written in PHP. You can use it together with <a href="http://www.cryptocapital.co/">Crypto Capital Corp&#39;s fiat banking platform</a> to develop your own exchange in record time.</p>
-	</div>
-	<div class="buttons">
-		<a style="margin-right:30px;" class="btn" href="#features"><i class="fa_icon icon-info icon-2x"></i> Read More</a>
-		<a style="margin-right:30px;" class="btn" href="http://demo.wlox.io"><i class="fa_icon icon-cog icon-2x"></i> See Demo</a>
-		<a class="btn" href="http://www.github.com/wlox/wlox"><i class="fa_icon icon-github icon-2x"></i> Go To Project</a>
-	</div>
-	<div class="provided">
-		<span>Provided by</span>
-		<a href="https://cryptocapital.co" target="_blank"><img src="images/crypto.png" /></a>
-	</div>
-</div>
-<div class="section gray" id="features">
-	<div class="container">
-		<div class="row">
-			<div class="span12">
-				<h2 class="page_title">Features</h1>
-				<h3 class="page_subtitle">All that you need to develop your own alt-currency exchange.</h2>
-				<div class="page_line"></div>
-			</div>
-			<div class="clear"></div>
-			<div class="divider"></div>
-			<div class="services_icon_container hi-icon-effect-1 hi-icon-effect-1a">
-				<div class="span6">
-					<div class="icon_wrapper"><a class="hi-icon" href="javascript:return false;"><i class="fa_icon icon-building icon-3x"></i></a></div>
-					<h2 class="uppercase">Easy Integration With Banking Platforms</h2>
-					<p><p>Can be easily integrated with <a href="http://cryptocapital.co/">Crypto Capital Corp&#39;s online banking platform</a>, which provides users with funds and allows you to outsource verification of identity.</p>
-</p>
-				</div><!--span6-->
-				<div class="span6">
-					<div class="icon_wrapper"><a class="hi-icon" href="javascript:return false;"><i class="fa_icon icon-code icon-3x"></i></a></div>
-					<h2 class="uppercase">Written in PHP</h2>
-					<p><p>Comprised of PHP, Javascript/JQuery, HTML and CSS. No unusual server requirements, knowledge of advanced programming techniques or exotic languages necessary.</p>
-</p>
-				</div><!--span6--><div class="clear"></div>
-				
-				<div class="span6">
-					<div class="icon_wrapper"><a class="hi-icon" href="javascript:return false;"><i class="fa_icon icon-money icon icon-3x"></i></a></div>
-					<h2 class="uppercase">Multiple Fiat-Currency Support</h2>
-					<p><p>Allows users to trade and maintain balances in multiple fiat currencies on one user account.</p>
-</p>
-				</div><!--span6-->
-				<div class="span6">
-					<div class="icon_wrapper"><a class="hi-icon" href="javascript:return false;"><i class="fa_icon icon-btc icon-3x"></i></a></div>
-					<h2 class="uppercase">Uses Bitcoin Core</h2>
-					<p><p>Pre-configured to function with the official Bitcoin Core client (bitcoind) by default. No need for any knowledge of the Bitcoin protocol or command-line interface.</p>
-</p>
-				</div><!--span6-->
-				<div class="clear"></div>
-				<div class="span6">
-					<div class="icon_wrapper"><a class="hi-icon" href="javascript:return false;"><i class="fa_icon icon-shield icon-3x"></i></a></div>
-					<h2 class="uppercase">Super Secure Code</h2>
-					<p><p>Coded using best security practices to keep your data secure. Single thread order processing ensures that money will not be lost in the system.</p>
-</p>
-				</div><!--span6-->
-
-
-				<div class="span6">
-					<div class="icon_wrapper"><a class="hi-icon" href="javascript:return false;"><i class="fa_icon  icon-gears icon-3x"></i></a></div>
-					<h2 class="uppercase">CMS / Administrator Included</h2>
-					<p><p>WLOX comes with its own proprietary back-end for managing everything from page content to fiat-currency withdrawals by users.</p>
-</p>
-				</div><!--span6-->
-				
-				<div class="clear"></div>
-
-			</div><!--icon_container-->
-
-		</div>
-	</div>
-</div>
-<!-- *** PORTFOLIO START *** -->
-<div id="screenshots" class="section">
-	<div class="container">
-		<div class="row">
-			<div class="span12">
-				<h1 class="page_title">Screenshots</h1>
-				<h2 class="page_subtitle">A few screenshots of WLOX in action. Click to get an explanation.</h2>
-				<div class="page_line"></div>
-			</div>
-		</div><!--row-->
-	</div><!--container-->
-	<div class="portfolio-top"></div>
-	<div class="divider"></div>
-	<div class="container">
-		<div class="row">
-			<div id="portfoliod">			
-			<div id="portfolioAjaxwrap"> 
-				<div id="portfolioAjax" class="clearfix">
-					<div id="portfolioAjaxControlls" class="clearfix">
-						<a id="ajax_close" href="#"><span class="outer"></span><span class="inner"></span></a>
-					</div><div class="clear"></div>
-					<div id="portfolioData"></div>
-				</div><!--portfolioAjax-->
-			</div>
-		</div><!--portfoliod-->
-		</div>
-	</div>
-
-
-<div id="container_portfolio" class="clickable variable-sizes clearfix">
-		<div class="portfolio_item transition marketing vertical" data-category="marketing" >
-			<div class="loop">
-			<div class="img-container">
-				<a class="ajax-trigger" href="includes/screenshot-1.html.en"><div class="image_gallery" id="image_gallery_0">
-					<input type="hidden" id="gallery_name_screenshot" class="gallery_name" value="screenshot" />
-					<div id="display" style="/*height:180px; width:319px;*/ position: relative;"><div class="gallery_item gf_screenshot" id="0" style="display:"><img src="uploads/screenshots_1_12_medium.jpg" alt="" height="180" width="319" /></div>	</div></div></a>
-			</div>
-		</div><!--loop-->
-	</div><!--portfolio item-->
-		<div class="portfolio_item transition marketing vertical" data-category="marketing" >
-			<div class="loop">
-			<div class="img-container">
-				<a class="ajax-trigger" href="includes/screenshot-2.html.en"><div class="image_gallery" id="image_gallery_1">
-					<input type="hidden" id="gallery_name_screenshot" class="gallery_name" value="screenshot" />
-					<div id="display" style="/*height:180px; width:319px;*/ position: relative;"><div class="gallery_item gf_screenshot" id="0" style="display:"><img src="uploads/screenshots_2_6_medium.jpg" alt="" height="180" width="319" /></div>	</div></div></a>
-			</div>
-		</div><!--loop-->
-	</div><!--portfolio item-->
-		<div class="portfolio_item transition marketing vertical" data-category="marketing" >
-			<div class="loop">
-			<div class="img-container">
-				<a class="ajax-trigger" href="includes/screenshot-3.html.en"><div class="image_gallery" id="image_gallery_2">
-					<input type="hidden" id="gallery_name_screenshot" class="gallery_name" value="screenshot" />
-					<div id="display" style="/*height:180px; width:319px;*/ position: relative;"><div class="gallery_item gf_screenshot" id="0" style="display:"><img src="uploads/screenshots_3_7_medium.jpg" alt="" height="180" width="319" /></div>	</div></div></a>
-			</div>
-		</div><!--loop-->
-	</div><!--portfolio item-->
-		<div class="portfolio_item transition marketing vertical" data-category="marketing" >
-			<div class="loop">
-			<div class="img-container">
-				<a class="ajax-trigger" href="includes/screenshot-4.html.en"><div class="image_gallery" id="image_gallery_3">
-					<input type="hidden" id="gallery_name_screenshot" class="gallery_name" value="screenshot" />
-					<div id="display" style="/*height:180px; width:319px;*/ position: relative;"><div class="gallery_item gf_screenshot" id="0" style="display:"><img src="uploads/screenshots_4_14_medium.jpg" alt="" height="180" width="319" /></div>	</div></div></a>
-			</div>
-		</div><!--loop-->
-	</div><!--portfolio item-->
-		<div class="portfolio_item transition marketing vertical" data-category="marketing" >
-			<div class="loop">
-			<div class="img-container">
-				<a class="ajax-trigger" href="includes/screenshot-5.html.en"><div class="image_gallery" id="image_gallery_4">
-					<input type="hidden" id="gallery_name_screenshot" class="gallery_name" value="screenshot" />
-					<div id="display" style="/*height:180px; width:319px;*/ position: relative;"><div class="gallery_item gf_screenshot" id="0" style="display:"><img src="uploads/screenshots_5_9_medium.jpg" alt="" height="180" width="319" /></div>	</div></div></a>
-			</div>
-		</div><!--loop-->
-	</div><!--portfolio item-->
-		<div class="portfolio_item transition marketing vertical" data-category="marketing" >
-			<div class="loop">
-			<div class="img-container">
-				<a class="ajax-trigger" href="includes/screenshot-6.html.en"><div class="image_gallery" id="image_gallery_5">
-					<input type="hidden" id="gallery_name_screenshot" class="gallery_name" value="screenshot" />
-					<div id="display" style="/*height:180px; width:319px;*/ position: relative;"><div class="gallery_item gf_screenshot" id="0" style="display:"><img src="uploads/screenshots_6_10_medium.jpg" alt="" height="180" width="319" /></div>	</div></div></a>
-			</div>
-		</div><!--loop-->
-	</div><!--portfolio item-->
-		<div class="portfolio_item transition marketing vertical" data-category="marketing" >
-			<div class="loop">
-			<div class="img-container">
-				<a class="ajax-trigger" href="includes/screenshot-7.html.en"><div class="image_gallery" id="image_gallery_6">
-					<input type="hidden" id="gallery_name_screenshot" class="gallery_name" value="screenshot" />
-					<div id="display" style="/*height:180px; width:319px;*/ position: relative;"><div class="gallery_item gf_screenshot" id="0" style="display:"><img src="uploads/screenshots_7_11_medium.jpg" alt="" height="180" width="319" /></div>	</div></div></a>
-			</div>
-		</div><!--loop-->
-	</div><!--portfolio item-->
-	</div><!--container-portfolio-->
-
-<div class="statement">
-	<p>Want to see more? Visit <a href="http://demo.wlox.io">our demo</a>.</p>
-</div>
+<section id="main-slider" class="no-margin">
+  <div class="carousel slide">
+    <ol class="carousel-indicators">
+      <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+      <li data-target="#main-slider" data-slide-to="1"></li>
+      <li data-target="#main-slider" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
+        <div class="container">
+          <div class="row slide-margin">
+            <div class="col-sm-12">
+              <div class="carousel-content">
+            <h1>Welcome to<span><img src="http://wlox.io/images/logo2.png" style="width:225px;height:90px; margin-top: -50px;"</span></h1>
+               <h2>White Label Open Source Cryptocurrency Exchange</h2>
+                <a class="btn-slide1" href="about-us.html">Read More</a>
+        <a class="btn-slide2" href="http://demo.wlox.io/"target="_blank">See Demo</a>   
+           <a class="btn-slide2" href="https://github.com/wlox/wlox"target="_blank">Go To Project</a>  
+             <h3>Provided by</h3>
+                <h5><span class="logo1"><a href="https://cryptocapital.co/"target="_blank"><img src="https://cryptocapital.co/assets/img/logob.png" style="width:235px;height:45px;"></a></span>
+                 </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/.item-->
+      
+      <div class="item" style="background-image: url(images/slider/bg2.jpg)">
+        <div class="container">
+          <div class="row slide-margin">
+            <div class="col-sm-12">
+              <div class="carousel-content">
+                <h6> <i class= "fa fa-cogs fa-lg"></i> </h6>
+                <h2>Live demo of Wlox exchange to explor</h2>
+               <a class="btn-slide2" href="about-us.html">Read More</a>
+        <a class="btn-slide1" href="http://demo.wlox.io/"target="_blank">See Demo</a>   
+           <a class="btn-slide2" href="https://github.com/wlox/wlox"target="_blank">Go To Project</a>   
+             <h3>Provided by</h3>
+                <h5><span class="logo1"><a href="https://cryptocapital.co/"target="_blank"><img src="https://cryptocapital.co/assets/img/logob.png" style="width:235px;height:45px;"></a></span>
+                </h5>
+           </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/.item-->
+      
+      <div class="item" style="background-image: url(images/slider/bg3.jpg)">
+        <div class="container">
+          <div class="row slide-margin">
+            <div class="col-sm-12">
+              <div class="carousel-content">
+                <h6> <i class="fa fa-github"></i> </h6>
+                <h2>Start developing your own exchange in record time. </h2>
+                <a class="btn-slide2" href="about-us.html">Read More</a>
+        <a class="btn-slide2" href="http://demo.wlox.io/"target="_blank">See Demo</a>   
+           <a class="btn-slide1" href="https://github.com/wlox/wlox"target="_blank">Go To Project</a>
+           <h3>Provided by</h3>
+                <h5><span class="logo1"><a href="https://cryptocapital.co/"target="_blank"><img src="https://cryptocapital.co/assets/img/logob.png" style="width:235px;height:45px;"></a></span>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/.item--> 
+    </div>
+    <!--/.carousel-inner--> 
+  </div>
+  <!--/.carousel--> 
+  <a class="prev hidden-xs" href="#main-slider" data-slide="prev"> <i class="fa fa-chevron-left"></i> </a> <a class="next hidden-xs" href="#main-slider" data-slide="next"> <i class="fa fa-chevron-right"></i> </a> </section>
+<!--/#main-slider-->
+<div class="color-border"> </div>
+<section id="feature" >
+  <div class="container">
+    <div class="center">
+      <h2>Features</h2>
+      <p class="lead">ALL THAT YOU NEED TO DEVELOP YOUR OWN ALT-CURRENCY EXCHANGE.
+      </p>
+    </div>
+    <div class="row">
+      <div class="features">
+        <div class="col-md-4 col-sm-6">
+          <div class="feature-wrap"> <i class="fa fa-bank"></i>
+            <h2>BANKING PLATFORM INTEGRATION</h2>
+            <h3>Can be easily integrated with Crypto Capital Corp's online banking platform, or any other banking platform of your choice.</h3>
+          </div>
+        </div>
+        <!--/.col-md-4-->
+        
+        <div class="col-md-4 col-sm-6">
+          <div class="feature-wrap"> <i class="fa fa-money"></i>
+            <h2>MULTIPLE FIAT-CURRENCY SUPPORT</h2>
+            <h3>Allows users to trade and maintain balances in multiple fiat currencies on one user account.</h3>
+          </div>
+        </div>
+        <!--/.col-md-4-->
+        
+        <div class="col-md-4 col-sm-6">
+          <div class="feature-wrap"> <i class="fa fa-shield"></i>
+            <h2>SECURE CODE
+            </h2>
+            <h3>Coded using best security practices to keep your data secure. Single thread order processing ensures that money will not be lost in the system.</h3>
+          </div>
+        </div>
+        <!--/.col-md-4--> 
+        
+          <div class="col-md-4 col-sm-6">
+          <div class="feature-wrap"> <i class="fa fa-code"></i>
+            <h2>WRITTEN IN PHP</h2>
+            <h3>Comprised of PHP, Javascript/JQuery, HTML and CSS. No unusual server requirements, knowledge of advanced programming techniques or exotic languages necessary.</h3>
+          </div>
+        </div>
+        <!--/.col-md-4-->
+        
+         <div class="col-md-4 col-sm-6">
+          <div class="feature-wrap"> <i class="fa fa-bitcoin"></i>
+            <h2>USES BITCOIN CORE</h2>
+            <h3>Pre-configured to function with the official Bitcoin Core client (bitcoind) by default. No need for any knowledge of the Bitcoin protocol or command-line interface.</h3>
+          </div>
+        </div>
+        <!--/.col-md-4-->
+        
+        <div class="col-md-4 col-sm-6">
+          <div class="feature-wrap"> <i class="fa fa-cogs"></i>
+            <h2>CMS / ADMINISTRATOR INCLUDED</h2>
+            <h3>WLOX comes with its own proprietary back-end for managing everything from page content to fiat-currency withdrawals by users.</h3>
+          </div>
+        </div>
+        <!--/.col-md-4-->
+        
+         
+      </div>
+      <!--/.services--> 
+    </div>
+    <!--/.row--> 
+  </div>
+  <!--/.container--> 
+</section>
+<!--/#feature-->
 
 
-</div><!--portfolio-->
-<!-- *** PORTFOLIO END *** -->
-<div class="clear"></div>
-<!-- *** FOOTER START *** -->
-<div id="footer">
-	<div class="container">
-		<div class="row">
-			<div class="span12">
-				<h3>© 2014 <a href="http://www.cryptocapital.co/">Crypto Capital Corporation</a>. All rights reserved.</h3>
-				<p style="color:#FFFFFF;">Contact US: <i style="margin:0 0 0 15px;" class="fa_icon icon-skype"></i> <strong>support.wlox</strong>  <i style="margin:0 0 0 15px;" class="fa_icon icon-envelope"></i> <strong><a href="cdn-cgi/l/email-protection#ec85828a83ac9b808394c28583">mailto:<span class="__cf_email__" data-cfemail="7e171018113e09121106501711">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
-/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></strong></p>
-				<ul class="social_links_footer">
-					<table><tr><td><iframe src="http://ghbtns.com/github-btn.html?user=wlox&repo=wlox&type=watch&count=true&size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:170px; height: 30px;" allowTransparency="true"></iframe></td><td><iframe src="http://ghbtns.com/github-btn.html?user=wlox&repo=wlox&type=fork&count=true&size=large" height="30" width="170" frameborder="0" scrolling="0" style="width:170px; height: 30px;" allowTransparency="true"></iframe></td><td><iframe src="http://ghbtns.com/github-btn.html?user=wlox&type=follow&count=true&size=large" height="30" width="240" frameborder="0" scrolling="0" style="width:240px; height: 30px;" allowTransparency="true"></iframe></td></tr></table>
-				</ul>
-				<div class="clear"></div>
-				</div>
-					
-			
-		</div>
-	</div>
-</div>
-<!-- *** FOOTER END *** -->
+<!-- recent-works = Screenshots -->
+
+<section id="recent-works">
+  <div class="container">
+    <div class="center">
+      <h2>Screenshots</h2>
+      <p class="lead">A FEW SCREENSHOTS OF WLOX IN ACTION. MOUSE OVER TO GET AN EXPLANATION.<br>
+       CLICK ON IMAGE TO EXPAND.</p><a href="http://demo.wlox.io/"target="_blank" class="btn btn-primary">See Demo</a>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <div class="recent-work-wrap"> <img class="img-responsive" src="images/portfolio/recent/item1.jpg" alt="">
+          <div class="overlay">
+            <div class="recent-work-inner">
+              <h3><a href="#">User Friendly Front End</a> </h3>
+              <p>Nice and clean ready to go front end with simple and easy to use features.</p>
+              <a class="preview" href="images/portfolio/full/item1.jpg" rel="prettyPhoto" title=""><i class="fa fa-search"></i> View</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <div class="recent-work-wrap"> <img class="img-responsive" src="http://wlox.io/uploads/screenshots_1_12_medium.jpg" alt="">
+          <div class="overlay">
+            <div class="recent-work-inner">
+              <h3><a href="#">Market & Exchange Info</a></h3>
+              <p>Users can easily get an overview of your exchange's behavior, as well as a few global statistics. </p>
+              <a class="preview" href="http://wlox.io/uploads/screenshots_1_12_large.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <div class="recent-work-wrap"> <img class="img-responsive" src="http://wlox.io/uploads/screenshots_3_7_medium.jpg" alt="">
+          <div class="overlay">
+            <div class="recent-work-inner">
+              <h3><a href="#">Dynamic Order Book</a></h3>
+              <p>No need to refresh the order book to get up-to-date information on your exchange. Graph updates constantly with the freshest info.</p>
+              <a class="preview" href="http://wlox.io/uploads/screenshots_3_7_large.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <div class="recent-work-wrap"> <img class="img-responsive" src="http://wlox.io/uploads/screenshots_4_14_medium.jpg" alt="">
+          <div class="overlay">
+            <div class="recent-work-inner">
+              <h3><a href="#">Multiple Currency Accounts</a></h3>
+              <p>Users can operate true multi-currency accounts. Easy to track balances maintained in each currency.</p>
+              <a class="preview" href="http://wlox.io/uploads/screenshots_4_14_large.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <div class="recent-work-wrap"> <img class="img-responsive" src="http://wlox.io/uploads/screenshots_5_9_medium.jpg" alt="">
+          <div class="overlay">
+            <div class="recent-work-inner">
+              <h3><a href="#">Easy Funding</a></h3>
+              <p>Very easy funding from and withdraw to their fiat and cryptocurrency accounts, as well as view the history and status of all movements.</p>
+              <a class="preview" href="http://wlox.io/uploads/screenshots_5_9_large.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <div class="recent-work-wrap"> <img class="img-responsive" src="http://wlox.io/uploads/screenshots_6_10_medium.jpg" alt="">
+          <div class="overlay">
+            <div class="recent-work-inner">
+              <h3><a href="#">Buy & Sell Like a Pro</a></h3>
+              <p>The buy/sell function on WLOX makes it extremely quick and easy to execute both stop and market orders at the right time.</p>
+              <a class="preview" href="http://wlox.io/uploads/screenshots_6_10_large.jpg" rel="prettyPhoto"><i class="fa fa-search"></i> View</a> </div>
+          </div>
+      </div>
+    </div>
+    <!--/.row--> 
+  </div>
+  
+  <!--/.container--> 
+</section>
+<!--/#recent-works-->
 
 
 
-<div class="loading_icon"></div>
+<section id="middle">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h3>Few Facts About WLOX</h3>
+        <br>
+        <div class="media"> <i class="fa fa-clipboard  pull-left fa-3x"></i>
+          <div class="media-body">
+            <h3 class="media-heading"> 180+ Clones</h3>
+            WLOX was cloned more then 180 times since the code was released.</div>
+        </div>
+        <br>
+        <div class="media"> <i class="fa fa-code-fork  pull-left fa-3x"></i>
+          <div class="media-body">
+            <h3 class="media-heading"> <span style="padding-left:18px">80+ Forks </h3>
+           <span style="padding-left:18px"> More then 80 forks and counting.</div>
+        </div>
+        <br>
+        <div class="media"> <i class="fa fa-smile-o pull-left fa-3x"></i>
+          <div class="media-body">
+            <h3 class="media-heading"> 100% User Satisfaction </h3>
+            We have been reciving excellent feedbacks so far!</div>
+        </div>
+      </div>
+      <!--/.col-sm-6-->
+      
+      <div class="col-sm-6">
+        <div class="accordion">
+          <h3>Some FAQ's</h3>
+          <br>
+          <div class="panel-group" id="accordion1">
+            <div class="panel panel-default">
+              <div class="panel-heading active">
+                <h3 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1"> What do I need start? <i class="fa fa-angle-right pull-right"></i> </a> </h3>
+              </div>
+              <div id="collapseOne1" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  <div class="media accordion-inner">
+                    <div class="media-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget nisl vel justo suscipit ullamcorper sed at lacus. Aliquam euismod nunc id eros sollicitudin interdum. Integer eget sem nec nulla dictum dictum. </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1"> How does it work? <i class="fa fa-angle-right pull-right"></i> </a> </h3>
+              </div>
+              <div id="collapseTwo1" class="panel-collapse collapse">
+                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget nisl vel justo suscipit ullamcorper sed at lacus. Aliquam euismod nunc id eros sollicitudin interdum. Integer eget sem nec nulla dictum dictum. </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1"> How much does it cost? <i class="fa fa-angle-right pull-right"></i> </a> </h3>
+              </div>
+              <div id="collapseThree1" class="panel-collapse collapse">
+                <div class="panel-body">If you have all it needs to start an exchange and the coding skiles just clone the code no cost there. For lacking one or all of the above check out our <a href="services.html">Servises</a> page and contact us for a quote </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1"> Can I make changes to feet my needs? <i class="fa fa-angle-right pull-right"></i> </a> </h3>
+              </div>
+              <div id="collapseFour1" class="panel-collapse collapse">
+                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget nisl vel justo suscipit ullamcorper sed at lacus. Aliquam euismod nunc id eros sollicitudin interdum. Integer eget sem nec nulla dictum dictum. </div>
+              </div>
+            </div>
+          </div>
+          <!--/#accordion1--> 
+        </div>
+      </div>
+    </div>
+    <!--/.row--> 
+  </div>
+  <!--/.container--> 
+</section>
+<!--/#middle-->
 
+<section id="partner">
+  <div class="container">
+    <div class="center">
+      <h2>Our Successful Exchange Deployments</h2>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin non odio sed eros tristique bibendum. Nunc quis semper sem.<br>
+        Morbi libero elit elementum quis faucibus ac, condimentum quis nibh.</p>
+    </div>
+    <div class="partners">
+      <ul>
+        <li> <a href="#"><img class="img-responsive" src="images/partners/partner1.png"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="images/partners/partner2.png"></a></li>
+        <li> <a href="https://1btcxe.com/"target="_blank"><img class="img-responsive" src="https://1btcxe.com/images/logo1.png"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="images/partners/partner4.png"></a></li>
+        <li> <a href="#"><img class="img-responsive" src="images/partners/partner5.png"></a></li>
+      </ul>
+    </div>
+  </div>
+  <!--/.container--> 
+</section>
+<!--/#partner-->
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>	
-<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
-<script type="text/javascript" src="js/carousel.js"></script>
-<script type="text/javascript" src="js/retina.js"></script>
-<script type="text/javascript" src="js/jquery.nav.js"></script>
-<script type="text/javascript" src="js/modernizr.custom.js"></script>
-<script type="text/javascript" src="js/jquery.isotope.min.js"></script>	
+<section id="get-started">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>Want to discuss a project?</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget nisl vel justo suscipit ullamcorper sed at lacus.<br>
+          Aliquam euismod nunc id eros sollicitudin interdum.</p>
+        <a href="contact-us.html" class="btn btn-primary">Contact us</a> </div>
+    </div>
+  </div>
+  <!--/.container--> 
+</section>
+<!--/#get-started-->
 
- <!-- JQUERY REVOLUTION SLIDER  -->
-<script type="text/javascript" src="js/jquery.themepunch.plugins.min.js"></script>
-<script type="text/javascript" src="js/jquery.themepunch.revolution.js"></script>
+<div class="color-border"> </div>
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+       <div class="col-sm-6">Copyright &copy; 2015 <a href="https://cryptocapital.co/"target="_blank" rel="nofollow">Crypto Capital Corporation </a></div>
+      <div class="col-sm-6">
+        <div class="follow-us"> <a class="fa fa-envelope social-icon" href="#"></a></span><span <p>Info@wlox.io</p></span></div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--/#footer--> 
 
-<script type="text/javascript" src="js/twitter/jquery.tweet.js"></script>
-<script type="text/javascript" src="js/custom.js"></script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-51257050-1', 'wlox.io');
-  ga('send', 'pageview');
-
-</script>
-
-<script type="text/javascript">
-/* <![CDATA[ */
-(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
-/* ]]> */
-</script>
+<script src="js/jquery.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.prettyPhoto.js"></script> 
+<script src="js/jquery.isotope.min.js"></script> 
+<script src="js/main.js"></script>
 </body>
 </html>

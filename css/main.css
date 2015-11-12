@@ -32,6 +32,9 @@ h4 {
 h5 {
 	font-size: 30px;
 }
+h6 {
+	font-size: 45px;
+}
 a {
 	color: #c52d2f;
 	-webkit-transition: color 300ms, background-color 300ms;
@@ -223,10 +226,13 @@ body > section {
 	font-weight: 500;
 	margin: 20px 0;
 }
+
 #main-slider .carousel .btn-slide1 {
 	padding: 10px 18px;
-	background: #33CC33;
-	color: #fff;
+	border-style: inset;
+	background: #b3ffb3;
+    border-color: #6CDA6C;
+	color: #333333;
 	border-radius: 5px;
 	margin-top: 25px;
 	display: inline-block;
@@ -243,6 +249,7 @@ body > section {
 .carousel-inner {
 	height: 640px;
 }
+
 #main-slider .carousel .item {
 	background-position: 50%;
 	background-repeat: no-repeat;
